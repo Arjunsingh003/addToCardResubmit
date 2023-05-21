@@ -1,0 +1,46 @@
+.addBody{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkcyan;
+    margin-top: 75px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000;
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.addImg{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid inherit;
+}
+.addItem{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+.clickToAdd{
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+.view{
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white; 
+    cursor: pointer;
+}
+
